@@ -2,7 +2,7 @@
 # Hw3
 >Исследуем ряд exp(x)
 ```html
-<x=1
+ x=1
 eps=10**(-6) 
 s=x 
 t=x 
@@ -14,7 +14,7 @@ while abs(t/s)>eps:
 import math
 a=math.fabs(s-math.exp(x))/math.exp(x)
  
-print ('s=',s, 'tmax=',t, 'a=',a, 'i=', i)>
+print ('s=',s, 'tmax=',t, 'a=',a, 'i=', i)
 ```
 ![screenshot of sample](https://pp.userapi.com/c834302/v834302678/ab974/P35PKgn_JlM.jpg)
 
